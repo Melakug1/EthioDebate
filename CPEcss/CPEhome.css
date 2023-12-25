@@ -1,0 +1,48 @@
+header {
+    padding-top:20px;
+    padding-bottom:20px;
+    color: yellow;
+}
+
+header h1 {
+    font-size: 120%;
+    font-weight: normal;
+    color: white;
+    background-color:  rgb(28, 105, 199);
+    text-align: center;
+}
+header P {
+    color:red;
+    text-align:center;
+}
+
+/* Site navigation*/
+
+.site-nav {
+    margin-top: 20px;
+}
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+}
+.site-nav li {
+    list-style: none;
+    float: left;
+    padding: .5em;
+    margin-right: 5px;
+}
+.site-nav a {
+    display: block;
+    color: tomato;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 3px solid burlywood;
+    border-bottom: none;
+}
+
+.site-nav a:hover {
+    background-color:Grey;  
+}
+  /* Site navigation*/
+  .clearfix {
+    clear: ;
